@@ -1,0 +1,19 @@
+global:
+  image:
+    tag: "v2.6.6"
+
+# configs:
+#   params:
+#     server.insecure: true
+server:
+  extraArgs:
+    - --insecure
+    - --rootpath
+    - /argocd
+  ingress:
+    enabled: true
+    # annotations:
+    #   nginx.ingress.kubernetes.io/backend-protocol: HTTP
+    ingressClassName: istio
+    paths:
+      - "/argocd"
