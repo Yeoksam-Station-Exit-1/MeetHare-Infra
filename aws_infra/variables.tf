@@ -40,3 +40,15 @@ variable "istio-namespace" {
   type = string
   default = "istio-system"
 }
+
+variable "istio_ingress_min_pods" {
+  description = "Number of min pods of istio ingress"
+  type = number
+  default = 1
+}
+
+variable "istio_ingress_max_pods" {
+  description = "Number of max pods of istio ingress"
+  type = number
+  default = 1
+}

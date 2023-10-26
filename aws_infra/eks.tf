@@ -6,7 +6,7 @@ locals {
   iam_role_policy_prefix = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:policy"
 }
 
-module "eks" {
+module "eks" {  
   source  = "terraform-aws-modules/eks/aws"
 
   cluster_name    = var.cluster_name
