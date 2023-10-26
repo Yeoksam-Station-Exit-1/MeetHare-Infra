@@ -9,13 +9,18 @@ spec:
   hosts:
     - "meethare.site"
   http:
-    - match:
-        - uri:
-            prefix: /status
-        - uri:
-            prefix: /delay
-      route:
+    - route:
         - destination:
+            host: argocd-server.argocd.svc.cluster.local
             port:
-              number: 8000
-            host: httpbin
+              number: 80
+      # - route:
+      #     - destination:
+      #         port:
+      #           number: 8000
+      #         host: httpbin
+      #   match:
+      #     - uri:
+      #         prefix: /status
+      #     - uri:
+      #         prefix: /delay

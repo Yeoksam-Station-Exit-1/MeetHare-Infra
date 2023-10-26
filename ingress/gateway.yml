@@ -5,8 +5,8 @@ metadata:
   namespace: istio-system
 spec:
   selector:
-    # app: istio-ingressgateway
-    istio: ingressgateway
+    app: istio-ingressgateway
+    # istio: ingressgateway
   servers:
     - hosts:
         - "*"
@@ -14,8 +14,8 @@ spec:
         name: http
         number: 80
         protocol: HTTP
-      tls:
-        httpsRedirect: true
+      # tls:
+      #   httpsRedirect: true
     - hosts:
         - "meethare.site"
       port:
