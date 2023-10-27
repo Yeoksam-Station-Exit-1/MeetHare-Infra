@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meethare-place-recommend
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: meethare-place-recommend
+  template:
+    metadata:
+      labels:
+        app: meethare-place-recommend
+    spec:
+      containers:
+        - image: tprogramer/meethare-place-recommend:1.0.0
+          name: meethare-place-recommend
+          ports:
+            - containerPort: 8080

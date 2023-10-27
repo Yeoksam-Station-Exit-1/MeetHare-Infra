@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: meethare-place-recommend
+  namespace: argocd
+  # ArgoCD 애플리케이션의 종료(Finalization) 과정에서 수행되어야 하는 리소스 정리 작업을 정의
+  # 종속 리소스들의 삭제 작업이 완료된 후에, ArgoCD 애플리케이션의 삭제와 관련된 종료 작업을 수행하기 위해 필요한 finalizer를 나타냅니다.
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Yeoksam-Station-Exit-1/MeetHare-Infra
+    targetRevision: HEAD
+    path: argocd/meethare-place-recommend
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true

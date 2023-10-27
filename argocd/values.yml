@@ -1,0 +1,22 @@
+server:
+  additionalApplications:
+    - name: app-of-app
+      namespace: argocd
+      project: default
+      source:
+        repoURL: https://github.com/Yeoksam-Station-Exit-1/MeetHare-Infra
+        targetRevision: HEAD
+        path: argocd/services
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: argocd
+      syncPolicy:
+        # automated:
+        #   prune: true
+        #   selfHeal: true
+        #   allowEmpty: false
+        syncOptions:
+          # - Validate=true
+          - CreateNamespace=true
+          # - PrunePropagationPolicy=foreground
+          # - PruneLast=true
