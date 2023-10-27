@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Yeoksam-Station-Exit-1/MeetHare-Infra
+    repoURL: git@github.com:Yeoksam-Station-Exit-1/MeetHare-Infra.git
     targetRevision: HEAD
     path: argocd/meethare-place-recommend
   destination:
