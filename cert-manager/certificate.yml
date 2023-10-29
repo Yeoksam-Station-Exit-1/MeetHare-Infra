@@ -5,7 +5,7 @@ metadata:
   namespace: istio-system
 spec:
   secretName: argo-server-tls
-  isCA: true
+  isCA: false
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
