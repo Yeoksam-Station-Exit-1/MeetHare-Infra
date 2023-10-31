@@ -9,18 +9,26 @@ spec:
   hosts:
     - "meethare.site"
   http:
+    - match:
+        - uri:
+            prefix: /place
+      route:
+        - destination:
+            host: meethare-place-recommend.default.svc.cluster.local
+            port:
+              number: 8080
+
+    - match:
+        - uri:
+            prefix: /map
+      route:
+        - destination:
+            host: meethare-location-recommend.default.svc.cluster.local
+            port:
+              number: 8080
+
     - route:
         - destination:
             host: argocd-server.argocd.svc.cluster.local
             port:
               number: 80
-      # - route:
-      #     - destination:
-      #         port:
-      #           number: 8000
-      #         host: httpbin
-      #   match:
-      #     - uri:
-      #         prefix: /status
-      #     - uri:
-      #         prefix: /delay

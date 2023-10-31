@@ -1,27 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: meethare-place-recommend
+  name: meethare-location-recommend
   labels:
-    app: meethare-place-recommend
+    app: meethare-location-recommend
     version: v1
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: meethare-place-recommend
+      app: meethare-location-recommend
       version: v1
   template:
     metadata:
       labels:
-        app: meethare-place-recommend
+        app: meethare-location-recommend
         version: v1
     spec:
-      serviceAccountName: meethare-place-recommend
+      serviceAccountName: meethare-location-recommend
       containers:
-        - image: tprogramer/meethare-place-recommend:1.0.0
-          name: meethare-place-recommend
+        - image: tprogramer/meethare-location-recommend:1.0.0
+          name: meethare-location-recommend
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
