@@ -9,6 +9,6 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: meethare.site
+  commonName: cluster.meethare.site
   dnsNames:
-    - meethare.site
+    - cluster.meethare.site

@@ -7,7 +7,7 @@ spec:
   gateways:
     - argocd-server
   hosts:
-    - "meethare.site"
+    - "cluster.meethare.site"
   http:
     - match:
         - uri:

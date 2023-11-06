@@ -9,7 +9,7 @@ spec:
     istio: ingressgateway
   servers:
     - hosts:
-        - "meethare.site"
+        - "cluster.meethare.site"
       port:
         name: https
         number: 443
@@ -18,7 +18,7 @@ spec:
         credentialName: argocd-server-tls
         mode: SIMPLE
     - hosts:
-        - "meethare.site"
+        - "cluster.meethare.site"
       port:
         name: http
         number: 80
