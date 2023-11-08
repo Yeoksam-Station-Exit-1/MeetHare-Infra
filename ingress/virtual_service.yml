@@ -33,9 +33,11 @@ spec:
             prefix: /user-manage
         - uri:
             prefix: /oauth2
+        - uri:
+            prefix: /login
       route:
         - destination:
-            host: meethare-user-manage.argocd.svc.cluster.local
+            host: meethare-user-manage.default.svc.cluster.local
             port:
               number: 8080
 
