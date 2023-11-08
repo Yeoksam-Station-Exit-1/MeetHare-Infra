@@ -30,12 +30,18 @@ spec:
 
     - match:
         - uri:
-            prefix: /.well-known
+            prefix: /api/user
+        - uri:
+            prefix: /api/room
+        - uri:
+            prefix: /auth
+        - uri:
+            prefix: /oauth2
       route:
         - destination:
-            host: cm-acme-http-solver-vx4gf.istio-system.svc.cluster.local
+            host: meethare-user-manage.argocd.svc.cluster.local
             port:
-              number: 8089
+              number: 8080
 
     - route:
         - destination:
