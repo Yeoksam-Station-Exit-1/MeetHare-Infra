@@ -4,7 +4,6 @@ apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
   name: letsencrypt-prod
-  namespace: istio-system
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
@@ -12,25 +11,29 @@ spec:
     privateKeySecretRef:
       name: letsencrypt-prod
     solvers:
-      - dns01:
-          cloudflare:
-            email: a41343095@gmail.com
-            apiTokenSecretRef:
-              name: cloudflare-api-token-secret
-              key: api-token
+      - http01:
+          ingress:
+            class: istio
+      # - dns01:
+      #     cloudflare:
+      #       email: a41343095@gmail.com
+      #       apiTokenSecretRef:
+      #         name: cloudflare-api-token-secret
+      #         key: api-token
 ---
 # Staging
 
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
-  name: letsencrypt-staging
+  name: letsencrypt-prod2
 spec:
   acme:
-    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    # server: https://acme-staging-v02.api.letsencrypt.org/directory
+    server: https://acme-v02.api.letsencrypt.org/directory
     email: a41343095@gmail.com
     privateKeySecretRef:
-      name: letsencrypt-staging
+      name: letsencrypt-prod2
     solvers:
       - dns01:
           cloudflare:

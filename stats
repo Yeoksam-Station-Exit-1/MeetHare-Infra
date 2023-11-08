@@ -1,0 +1,233 @@
+cluster_manager.cds.version_text: "2023-11-07T06:16:30Z/87"
+listener_manager.lds.version_text: "2023-11-07T06:16:30Z/87"
+cluster.xds-grpc.assignment_stale: 0
+cluster.xds-grpc.assignment_timeout_received: 0
+cluster.xds-grpc.bind_errors: 0
+cluster.xds-grpc.circuit_breakers.default.cx_open: 0
+cluster.xds-grpc.circuit_breakers.default.cx_pool_open: 0
+cluster.xds-grpc.circuit_breakers.default.rq_open: 0
+cluster.xds-grpc.circuit_breakers.default.rq_pending_open: 0
+cluster.xds-grpc.circuit_breakers.default.rq_retry_open: 0
+cluster.xds-grpc.circuit_breakers.high.cx_open: 0
+cluster.xds-grpc.circuit_breakers.high.cx_pool_open: 0
+cluster.xds-grpc.circuit_breakers.high.rq_open: 0
+cluster.xds-grpc.circuit_breakers.high.rq_pending_open: 0
+cluster.xds-grpc.circuit_breakers.high.rq_retry_open: 0
+cluster.xds-grpc.default.total_match_count: 1
+cluster.xds-grpc.http2.deferred_stream_close: 0
+cluster.xds-grpc.http2.dropped_headers_with_underscores: 0
+cluster.xds-grpc.http2.goaway_sent: 0
+cluster.xds-grpc.http2.header_overflow: 0
+cluster.xds-grpc.http2.headers_cb_no_stream: 0
+cluster.xds-grpc.http2.inbound_empty_frames_flood: 0
+cluster.xds-grpc.http2.inbound_priority_frames_flood: 0
+cluster.xds-grpc.http2.inbound_window_update_frames_flood: 0
+cluster.xds-grpc.http2.keepalive_timeout: 0
+cluster.xds-grpc.http2.metadata_empty_frames: 0
+cluster.xds-grpc.http2.outbound_control_flood: 0
+cluster.xds-grpc.http2.outbound_control_frames_active: 0
+cluster.xds-grpc.http2.outbound_flood: 0
+cluster.xds-grpc.http2.outbound_frames_active: 0
+cluster.xds-grpc.http2.pending_send_bytes: 0
+cluster.xds-grpc.http2.requests_rejected_with_underscores_in_headers: 0
+cluster.xds-grpc.http2.rx_messaging_error: 0
+cluster.xds-grpc.http2.rx_reset: 0
+cluster.xds-grpc.http2.stream_refused_errors: 0
+cluster.xds-grpc.http2.streams_active: 1
+cluster.xds-grpc.http2.trailers: 0
+cluster.xds-grpc.http2.tx_flush_timeout: 0
+cluster.xds-grpc.http2.tx_reset: 0
+cluster.xds-grpc.internal.upstream_rq_200: 556
+cluster.xds-grpc.internal.upstream_rq_2xx: 556
+cluster.xds-grpc.internal.upstream_rq_completed: 556
+cluster.xds-grpc.lb_healthy_panic: 0
+cluster.xds-grpc.lb_local_cluster_not_ok: 0
+cluster.xds-grpc.lb_recalculate_zone_structures: 0
+cluster.xds-grpc.lb_subsets_active: 0
+cluster.xds-grpc.lb_subsets_created: 0
+cluster.xds-grpc.lb_subsets_fallback: 0
+cluster.xds-grpc.lb_subsets_fallback_panic: 0
+cluster.xds-grpc.lb_subsets_removed: 0
+cluster.xds-grpc.lb_subsets_selected: 0
+cluster.xds-grpc.lb_zone_cluster_too_small: 0
+cluster.xds-grpc.lb_zone_no_capacity_left: 0
+cluster.xds-grpc.lb_zone_number_differs: 0
+cluster.xds-grpc.lb_zone_routing_all_directly: 0
+cluster.xds-grpc.lb_zone_routing_cross_zone: 0
+cluster.xds-grpc.lb_zone_routing_sampled: 0
+cluster.xds-grpc.max_host_weight: 0
+cluster.xds-grpc.membership_change: 1
+cluster.xds-grpc.membership_degraded: 0
+cluster.xds-grpc.membership_excluded: 0
+cluster.xds-grpc.membership_healthy: 1
+cluster.xds-grpc.membership_total: 1
+cluster.xds-grpc.original_dst_host_invalid: 0
+cluster.xds-grpc.retry_or_shadow_abandoned: 0
+cluster.xds-grpc.update_attempt: 0
+cluster.xds-grpc.update_empty: 0
+cluster.xds-grpc.update_failure: 0
+cluster.xds-grpc.update_no_rebuild: 0
+cluster.xds-grpc.update_success: 0
+cluster.xds-grpc.upstream_cx_active: 1
+cluster.xds-grpc.upstream_cx_close_notify: 0
+cluster.xds-grpc.upstream_cx_connect_attempts_exceeded: 0
+cluster.xds-grpc.upstream_cx_connect_fail: 0
+cluster.xds-grpc.upstream_cx_connect_timeout: 0
+cluster.xds-grpc.upstream_cx_connect_with_0_rtt: 0
+cluster.xds-grpc.upstream_cx_destroy: 555
+cluster.xds-grpc.upstream_cx_destroy_local: 555
+cluster.xds-grpc.upstream_cx_destroy_local_with_active_rq: 0
+cluster.xds-grpc.upstream_cx_destroy_remote: 0
+cluster.xds-grpc.upstream_cx_destroy_remote_with_active_rq: 0
+cluster.xds-grpc.upstream_cx_destroy_with_active_rq: 0
+cluster.xds-grpc.upstream_cx_http1_total: 0
+cluster.xds-grpc.upstream_cx_http2_total: 556
+cluster.xds-grpc.upstream_cx_http3_total: 0
+cluster.xds-grpc.upstream_cx_idle_timeout: 0
+cluster.xds-grpc.upstream_cx_max_duration_reached: 0
+cluster.xds-grpc.upstream_cx_max_requests: 556
+cluster.xds-grpc.upstream_cx_none_healthy: 0
+cluster.xds-grpc.upstream_cx_overflow: 0
+cluster.xds-grpc.upstream_cx_pool_overflow: 0
+cluster.xds-grpc.upstream_cx_protocol_error: 555
+cluster.xds-grpc.upstream_cx_rx_bytes_buffered: 17
+cluster.xds-grpc.upstream_cx_rx_bytes_total: 31908011
+cluster.xds-grpc.upstream_cx_total: 556
+cluster.xds-grpc.upstream_cx_tx_bytes_buffered: 0
+cluster.xds-grpc.upstream_cx_tx_bytes_total: 23560907
+cluster.xds-grpc.upstream_flow_control_backed_up_total: 0
+cluster.xds-grpc.upstream_flow_control_drained_total: 0
+cluster.xds-grpc.upstream_flow_control_paused_reading_total: 0
+cluster.xds-grpc.upstream_flow_control_resumed_reading_total: 0
+cluster.xds-grpc.upstream_http3_broken: 0
+cluster.xds-grpc.upstream_internal_redirect_failed_total: 0
+cluster.xds-grpc.upstream_internal_redirect_succeeded_total: 0
+cluster.xds-grpc.upstream_rq_0rtt: 0
+cluster.xds-grpc.upstream_rq_200: 556
+cluster.xds-grpc.upstream_rq_2xx: 556
+cluster.xds-grpc.upstream_rq_active: 1
+cluster.xds-grpc.upstream_rq_cancelled: 0
+cluster.xds-grpc.upstream_rq_completed: 556
+cluster.xds-grpc.upstream_rq_maintenance_mode: 0
+cluster.xds-grpc.upstream_rq_max_duration_reached: 0
+cluster.xds-grpc.upstream_rq_pending_active: 0
+cluster.xds-grpc.upstream_rq_pending_failure_eject: 0
+cluster.xds-grpc.upstream_rq_pending_overflow: 0
+cluster.xds-grpc.upstream_rq_pending_total: 556
+cluster.xds-grpc.upstream_rq_per_try_idle_timeout: 0
+cluster.xds-grpc.upstream_rq_per_try_timeout: 0
+cluster.xds-grpc.upstream_rq_retry: 0
+cluster.xds-grpc.upstream_rq_retry_backoff_exponential: 0
+cluster.xds-grpc.upstream_rq_retry_backoff_ratelimited: 0
+cluster.xds-grpc.upstream_rq_retry_limit_exceeded: 0
+cluster.xds-grpc.upstream_rq_retry_overflow: 0
+cluster.xds-grpc.upstream_rq_retry_success: 0
+cluster.xds-grpc.upstream_rq_rx_reset: 0
+cluster.xds-grpc.upstream_rq_timeout: 0
+cluster.xds-grpc.upstream_rq_total: 556
+cluster.xds-grpc.upstream_rq_tx_reset: 555
+cluster.xds-grpc.version: 0
+cluster.xds-grpc.warming_state: 0
+cluster.xds-grpc.zone.ap-northeast-2c..upstream_rq_200: 556
+cluster.xds-grpc.zone.ap-northeast-2c..upstream_rq_2xx: 556
+cluster.xds-grpc.zone.ap-northeast-2c..upstream_rq_completed: 556
+cluster_manager.active_clusters: 37
+cluster_manager.cds.init_fetch_timeout: 0
+cluster_manager.cds.update_attempt: 1175
+cluster_manager.cds.update_failure: 555
+cluster_manager.cds.update_rejected: 0
+cluster_manager.cds.update_success: 619
+cluster_manager.cds.update_time: 1699345658939
+cluster_manager.cds.version: 643081784054804826
+cluster_manager.cluster_added: 60
+cluster_manager.cluster_modified: 39
+cluster_manager.cluster_removed: 23
+cluster_manager.cluster_updated: 44
+cluster_manager.cluster_updated_via_merge: 0
+cluster_manager.update_merge_cancelled: 0
+cluster_manager.update_out_of_merge_window: 0
+cluster_manager.warming_clusters: 0
+istiocustom.istio_build.component.proxy.tag.1.19.3: 1
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: 9
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.200.grpc_response_status.response_flags.-.connection_security_policy.unknown: 58
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.401.grpc_response_status.response_flags.-.connection_security_policy.unknown: 6
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.404.grpc_response_status.response_flags.-.connection_security_policy.unknown: 7
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.argocd-server.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: 2
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.400.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: 38
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.404.grpc_response_status.response_flags.NR.connection_security_policy.unknown: 97
+istiocustom.istio_requests_total.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.426.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: 7
+listener_manager.lds.init_fetch_timeout: 0
+listener_manager.lds.update_attempt: 1186
+listener_manager.lds.update_failure: 551
+listener_manager.lds.update_rejected: 0
+listener_manager.lds.update_success: 634
+listener_manager.lds.update_time: 1699345658941
+listener_manager.lds.version: 643081784054804826
+listener_manager.listener_added: 12
+listener_manager.listener_create_failure: 0
+listener_manager.listener_create_success: 32
+listener_manager.listener_in_place_updated: 4
+listener_manager.listener_modified: 4
+listener_manager.listener_removed: 8
+listener_manager.listener_stopped: 0
+listener_manager.total_filter_chains_draining: 0
+listener_manager.total_listeners_active: 4
+listener_manager.total_listeners_draining: 0
+listener_manager.total_listeners_warming: 0
+listener_manager.workers_started: 1
+server.compilation_settings.fips_mode: 0
+server.concurrency: 2
+server.days_until_first_cert_expiring: 0
+server.debug_assertion_failures: 0
+server.dropped_stat_flushes: 0
+server.dynamic_unknown_fields: 0
+server.envoy_bug_failures: 0
+server.hot_restart_epoch: 0
+server.live: 1
+server.main_thread.watchdog_mega_miss: 0
+server.main_thread.watchdog_miss: 0
+server.memory_allocated: 11144184
+server.memory_heap_size: 20971520
+server.memory_physical_size: 23592960
+server.parent_connections: 0
+server.seconds_until_first_ocsp_response_expiring: 0
+server.state: 0
+server.static_unknown_fields: 0
+server.stats_recent_lookups: 54006
+server.total_connections: 2
+server.uptime: 1001817
+server.version: 10616659
+server.wip_protos: 1
+server.worker_0.watchdog_mega_miss: 0
+server.worker_0.watchdog_miss: 0
+server.worker_1.watchdog_mega_miss: 0
+server.worker_1.watchdog_miss: 0
+cluster.xds-grpc.upstream_cx_connect_ms: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,2.0887999999999987) P99.5(nan,3.0740000000000007) P99.9(nan,29.44399999999996) P100(nan,30)
+cluster.xds-grpc.upstream_cx_length_ms: P0(nan,3) P25(nan,1722431.506849315) P50(nan,1816776.3157894737) P75(nan,1908112.5827814569) P90(nan,1963245.0331125828) P95(nan,1981622.5165562914) P99(nan,1996324.5033112583) P99.5(nan,1998162.2516556291) P99.9(nan,1999632.4503311259) P100(nan,2000000)
+cluster_manager.cds.update_duration: P0(nan,3) P25(nan,4.054594017094017) P50(nan,5.036742424242425) P75(nan,7.008125) P90(nan,10.935714285714287) P95(nan,13.756249999999994) P99(nan,20.809999999999945) P99.5(nan,27.452499999999986) P99.9(nan,34.38099999999997) P100(nan,35)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: P0(nan,320) P25(nan,436.25) P50(nan,552.5) P75(nan,607.5) P90(nan,920.9999999999999) P95(nan,925.4999999999999) P99(nan,929.0999999999999) P99.5(nan,929.5499999999998) P99.9(nan,929.9099999999999) P100(nan,929.9999999999999)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.200.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,210) P25(nan,385) P50(nan,453.3333333333333) P75(nan,766.5) P90(nan,778.6666666666666) P95(nan,901) P99(nan,927.0999999999999) P99.5(nan,928.5499999999998) P99.9(nan,929.7099999999999) P100(nan,929.9999999999999)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.401.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,370) P25(nan,762.5) P50(nan,770) P75(nan,1225) P90(nan,1270) P95(nan,1285) P99(nan,1297) P99.5(nan,1298.5) P99.9(nan,1299.7) P100(nan,1300)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.404.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,220.00000000000003) P25(nan,417.49999999999994) P50(nan,437.5) P75(nan,581.25) P90(nan,586.5) P95(nan,588.25) P99(nan,589.65) P99.5(nan,589.825) P99.9(nan,589.965) P100(nan,590)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.argocd-server.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: P0(nan,200) P25(nan,202.5) P50(nan,205) P75(nan,207.5) P90(nan,209) P95(nan,209.5) P99(nan,209.9) P99.5(nan,209.95) P99.9(nan,209.99) P100(nan,210)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.400.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: P0(nan,4) P25(nan,13.75) P50(nan,43) P75(nan,117.50000000000001) P90(nan,212.00000000000003) P95(nan,331) P99(nan,616.1999999999999) P99.5(nan,618.1) P99.9(nan,619.62) P100(nan,620)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.404.grpc_response_status.response_flags.NR.connection_security_policy.unknown: P0(nan,74) P25(nan,213.71212121212122) P50(nan,225.83333333333337) P75(nan,287.6388888888889) P90(nan,310.75) P95(nan,325.74999999999994) P99(nan,475.15) P99.5(nan,477.575) P99.9(nan,479.51500000000004) P100(nan,480)
+istiocustom.istio_request_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.426.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: P0(nan,18) P25(nan,22.75) P50(nan,142.5) P75(nan,311.25) P90(nan,316.5) P95(nan,318.25) P99(nan,319.65) P99.5(nan,319.825) P99.9(nan,319.965) P100(nan,320)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.200.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,2) P25(nan,3.05) P50(nan,4.076923076923077) P75(nan,7.07) P90(nan,12.200000000000003) P95(nan,15.099999999999994) P99(nan,124.20000000000002) P99.5(nan,127.10000000000001) P99.9(nan,129.42000000000002) P100(nan,130)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.401.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,3) P25(nan,3.075) P50(nan,4.025) P75(nan,4.0625) P90(nan,4.085) P95(nan,4.0925) P99(nan,4.0985) P99.5(nan,4.09925) P99.9(nan,4.09985) P100(nan,4.1)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.404.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,3) P25(nan,3.029166666666667) P50(nan,3.058333333333333) P75(nan,3.0875) P90(nan,5.03) P95(nan,5.0649999999999995) P99(nan,5.093) P99.5(nan,5.0965) P99.9(nan,5.0993) P100(nan,5.1)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.argocd-server.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.400.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.404.grpc_response_status.response_flags.NR.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_request_duration_milliseconds.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.426.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.200.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,229.99999999999997) P25(nan,305.8333333333333) P50(nan,568) P75(nan,968.75) P90(nan,17200.000000000004) P95(nan,230999.9999999999) P99(nan,657100) P99.5(nan,658550) P99.9(nan,659710) P100(nan,660000)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.401.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,290) P25(nan,292.5) P50(nan,295) P75(nan,297.5) P90(nan,299) P95(nan,299.5) P99(nan,299.9) P99.5(nan,299.95) P99.9(nan,299.99) P100(nan,300)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.argocd-server.destination_workload_namespace.argocd.destination_principal.spiffe://cluster.local/ns/argocd/sa/argocd-server.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.argocd-server.destination_canonical_revision.v2.8.4.destination_service_name.argocd-server.destination_service_namespace.argocd.destination_cluster.Kubernetes.request_protocol.http.response_code.404.grpc_response_status.response_flags.-.connection_security_policy.unknown: P0(nan,400) P25(nan,402.5) P50(nan,405) P75(nan,407.5) P90(nan,409) P95(nan,409.5) P99(nan,409.9) P99.5(nan,409.95) P99.9(nan,409.99) P100(nan,410)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.argocd-server.argocd.svc.cluster.local.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.argocd-server.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.0.grpc_response_status.response_flags.DC.connection_security_policy.unknown: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,0) P95(nan,0) P99(nan,0) P99.5(nan,0) P99.9(nan,0) P100(nan,0)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.400.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: P0(nan,160) P25(nan,162.5) P50(nan,165) P75(nan,167.5) P90(nan,169) P95(nan,169.5) P99(nan,169.9) P99.5(nan,169.95) P99.9(nan,169.99) P100(nan,170)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.404.grpc_response_status.response_flags.NR.connection_security_policy.unknown: P0(nan,100) P25(nan,104.33035714285714) P50(nan,108.66071428571429) P75(nan,123.44594594594595) P90(nan,127.37837837837837) P95(nan,128.6891891891892) P99(nan,129.73783783783784) P99.5(nan,129.86891891891892) P99.9(nan,129.97378378378377) P100(nan,130)
+istiocustom.istio_response_bytes.reporter.source.source_workload.istio-ingressgateway.source_canonical_service.istio-ingressgateway.source_canonical_revision.latest.source_workload_namespace.istio-system.source_principal.unknown.source_app.istio-ingressgateway.source_version.source_cluster.Kubernetes.destination_workload.unknown.destination_workload_namespace.unknown.destination_principal.unknown.destination_app.unknown.destination_version.unknown.destination_service.unknown.destination_canonical_service.unknown.destination_canonical_revision.latest.destination_service_name.unknown.destination_service_namespace.unknown.destination_cluster.unknown.request_protocol.http.response_code.426.grpc_response_status.response_flags.DPE.connection_security_policy.unknown: P0(nan,170) P25(nan,172.5) P50(nan,175) P75(nan,177.5) P90(nan,179) P95(nan,179.5) P99(nan,179.9) P99.5(nan,179.95) P99.9(nan,179.99) P100(nan,180)
+listener_manager.lds.update_duration: P0(nan,0) P25(nan,0) P50(nan,0) P75(nan,0) P90(nan,1.0708510638297872) P95(nan,2.0307142857142852) P99(nan,5.0776666666666666) P99.5(nan,7.083000000000004) P99.9(nan,38.365999999999985) P100(nan,39)
+server.initialization_time_ms: P0(nan,22000) P25(nan,22250) P50(nan,22500) P75(nan,22750) P90(nan,22900) P95(nan,22950) P99(nan,22990) P99.5(nan,22995) P99.9(nan,22999) P100(nan,23000)

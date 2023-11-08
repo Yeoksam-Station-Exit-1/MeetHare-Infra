@@ -8,20 +8,32 @@ spec:
     # app: istio-ingressgateway
     istio: ingressgateway
   servers:
+    # - hosts:
+    #     - "meethare.kro.kr"
+    #     # - "*"
+    #   port:
+    #     name: https1
+    #     number: 443
+    #     protocol: HTTPS
+    #   tls:
+    #     credentialName: argocd-server-tls
+    #     mode: SIMPLE
+    # - hosts:
+    #     # - "cluster.meethare.site"
+    #     - "*"
+    #   port:
+    #     name: https2
+    #     number: 443
+    #     protocol: HTTPS
+    #   tls:
+    #     credentialName: argocd-server-tls2
+    #     mode: SIMPLE
     - hosts:
-        - "cluster.meethare.site"
-      port:
-        name: https
-        number: 443
-        protocol: HTTPS
-      tls:
-        credentialName: argocd-server-tls
-        mode: SIMPLE
-    - hosts:
+        - "meethare.kro.kr"
         - "cluster.meethare.site"
       port:
         name: http
         number: 80
         protocol: HTTP
-      tls:
-        httpsRedirect: true
+      # tls:
+      #   httpsRedirect: true

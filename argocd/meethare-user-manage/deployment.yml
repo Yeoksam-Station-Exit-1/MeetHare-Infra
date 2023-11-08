@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meethare-user-manage
+  labels:
+    app: meethare-user-manage
+    version: v1
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: meethare-user-manage
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: meethare-user-manage
+        version: v1
+    spec:
+      serviceAccountName: meethare-user-manage
+      containers:
+        - image: tprogramer/meethare-user-manage:1.0.1
+          name: meethare-user-manage
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080

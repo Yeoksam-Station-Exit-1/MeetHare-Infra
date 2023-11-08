@@ -7,6 +7,7 @@ spec:
   gateways:
     - argocd-server
   hosts:
+    - "meethare.kro.kr"
     - "cluster.meethare.site"
   http:
     - match:
@@ -26,6 +27,15 @@ spec:
             host: meethare-location-recommend.default.svc.cluster.local
             port:
               number: 8080
+
+    - match:
+        - uri:
+            prefix: /.well-known
+      route:
+        - destination:
+            host: cm-acme-http-solver-vx4gf.istio-system.svc.cluster.local
+            port:
+              number: 8089
 
     - route:
         - destination:
