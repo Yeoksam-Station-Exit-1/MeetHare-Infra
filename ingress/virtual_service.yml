@@ -30,11 +30,7 @@ spec:
 
     - match:
         - uri:
-            prefix: /api/user
-        - uri:
-            prefix: /api/room
-        - uri:
-            prefix: /auth
+            prefix: /user-manage
         - uri:
             prefix: /oauth2
       route:
@@ -43,7 +39,10 @@ spec:
             port:
               number: 8080
 
-    - route:
+    - match:
+        - uri:
+            prefix: /
+      route:
         - destination:
             host: argocd-server.argocd.svc.cluster.local
             port:
