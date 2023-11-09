@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: meethare-db-sts-vol
+spec:
+  selector:
+    matchLabels:
+      app: meethare-db-sts-vol
+  serviceName: meethare-db-svc-headless
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: meethare-db-sts-vol
+    spec:
+      containers:
+        - name: meethare-db
+          image: mysql:8.0.32
+          ports:
+            - containerPort: 3306
+          volumeMounts:
+            - name: meethare-db-data
+              mountPath: /data
+  volumeClaimTemplates:
+    - metadata:
+        name: meethare-db-claim
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 4Gi
+        storageClassName: ebs-sc
