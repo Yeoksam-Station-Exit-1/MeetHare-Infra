@@ -20,8 +20,8 @@ spec:
     spec:
       serviceAccountName: meethare-user-manage
       containers:
-        - image: tprogramer/meethare-user-manage:1.0.7
+        - image: tprogramer/meethare-user-manage:latest
           name: meethare-user-manage
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
