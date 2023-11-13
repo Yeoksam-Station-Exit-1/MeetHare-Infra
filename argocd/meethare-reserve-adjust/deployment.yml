@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meethare-reserve-adjust
+  labels:
+    app: meethare-reserve-adjust
+    version: v1
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: meethare-reserve-adjust
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: meethare-reserve-adjust
+        version: v1
+    spec:
+      serviceAccountName: meethare-reserve-adjust
+      containers:
+        - image: tprogramer/meethare-reserve-adjust:latest
+          name: meethare-reserve-adjust
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
