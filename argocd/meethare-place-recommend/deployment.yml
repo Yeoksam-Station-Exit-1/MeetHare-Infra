@@ -20,8 +20,8 @@ spec:
     spec:
       serviceAccountName: meethare-place-recommend
       containers:
-        - image: tprogramer/meethare-place-recommend:1.1.7
+        - image: tprogramer/meethare-place-recommend:latest
           name: meethare-place-recommend
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
