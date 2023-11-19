@@ -22,6 +22,8 @@ spec:
     - match:
         - uri:
             prefix: /map
+        - uri:
+            prefix: /ws
       route:
         - destination:
             host: meethare-location-recommend.default.svc.cluster.local
@@ -38,6 +40,17 @@ spec:
       route:
         - destination:
             host: meethare-user-manage.default.svc.cluster.local
+            port:
+              number: 8080
+
+    - match:
+        - uri:
+            prefix: /reserve
+        - uri:
+            prefix: /webpush
+      route:
+        - destination:
+            host: meethare-reserve-adjust.default.svc.cluster.local
             port:
               number: 8080
 
